@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+.navbar .logo {
+    /* width: max(10%, 80px); */
+    width: 131px;
+}
+
+.navbar .profile {
+    width: 40px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-top: 8px; /* Adjust the spacing between the logo and the title */
+    font-size: 1rem; /* Adjust the font size as needed */
+    text-align: center;
+    padding-right: 30px;
+}
